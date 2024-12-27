@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    position: relative;
+}
+header h1{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%, +10%);
+}  
+
+header p {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 50%;
+    font-size: 1.3rem;
+    transform: translate(-50%, +80%);
+    text-align: center;
+}
+
+.baixar-disc{
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+}
+
+.abrir-disc {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+}
+
+.image-fundo{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
+/* bloco */
+
+.bloco {
+   padding: 100px 50px; 
+}
+
+.bloco p {
+    font-size: 1rem;
+}
+
+/* -- bloco 1  */
+.bloco-1 {
+    background-color: white;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Opcional: centraliza horizontalmente */
+    padding: 40px 20px; /* Espaçamento interno */
+    gap: 20px; /* Espaço entre os elementos */
+}
+
+.bloco-direita1 {
+    max-width: 500px; /* Limita a largura do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.bloco-direita1 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bloco-direita1 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.img-bloco1 {
+    max-width: 100%; /* Redimensiona automaticamente */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Garante o ajuste correto dentro do container */
+    width: 400px; /* Largura fixa para a imagem (ajuste conforme necessário) */
+}
+
+/* -- bloco 2  */
+.bloco-2 {
+    background-color:  #F6F6F6;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Opcional: centraliza horizontalmente */
+    padding: 40px 20px; /* Espaçamento interno */
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+.bloco-esquerda2 {
+    max-width: 500px; /* Limita a largura do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.bloco-esquerda2 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.bloco-esquerda2 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.img-bloco2 {
+    max-width: 100%; /* Redimensiona automaticamente */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Garante o ajuste correto dentro do container */
+    width: 400px; /* Largura fixa para a imagem (ajuste conforme necessário) */
+}
+
+/* -- bloco 3  */
+.bloco-3 {
+    background-color: white;
+    display: flex; /* Ativa Flexbox */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Opcional: centraliza horizontalmente */
+    padding: 40px 20px; /* Espaçamento interno */
+    gap: 20px; /* Espaço entre os elementos */
+}
+
+.bloco-direita3 {
+    max-width: 500px; /* Limita a largura do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.bloco-direita3 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bloco-direita3 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.img-bloco3 {
+    max-width: 100%; /* Redimensiona automaticamente */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Garante o ajuste correto dentro do container */
+    width: 400px; /* Largura fixa para a imagem (ajuste conforme necessário) */
+}
+
+
+/* -- bloco 4  */
+.bloco-4 {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+
+.bloco-4 h2 {
+    top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bloco-4 p {
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 20px 50px 20px
+    
+}
+
+.img-bloco4 {
+    
+    max-width: 700px; /* Ajuste a largura máxima da imagem */
+    width: 100%; /* Faz a imagem ser responsiva */
+    height: auto; /* Mantém as proporções */
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 134px;
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-discord {
+    width: 300px;
+    height: auto; /* Mantém a proporção da imagem */
+}
